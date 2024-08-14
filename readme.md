@@ -16,16 +16,12 @@ python版本: 3.7
 
 ## 使用方法
 
-安装依赖
+安装依赖&使用
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+python3 main.py [yourUrl] [deepth]
 ```
-
-修改`main.py`入口程序, 主要是两个配置项
-
-1. main_url: 目标网站主页
-2. max_depth: 抓取深度
 
 其他配置项见`crawler/config.py`.
 
